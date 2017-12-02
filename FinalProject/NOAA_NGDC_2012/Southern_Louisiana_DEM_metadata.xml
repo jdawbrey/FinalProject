@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ngdc.noaa.gov/metadata/published/xsd/ngdcSchema/schema.xsd">
+	<idinfo>
+		<datsetid> gov.noaa.ngdc.mgg.dem:1521 </datsetid>
+		<citation>
+			<citeinfo>
+				<origin> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </origin>
+				<origin_cntinfo>
+					<cntinfo>
+						<cntorgp>
+							<cntorg> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </cntorg>
+							<cntper> User Services </cntper>
+						</cntorgp>
+						<cntaddr>
+							<addrtype> Mailing and Physical Address </addrtype>
+							<address> NOAA/NESDIS/NGDC E/GC 325 Broadway </address>
+							<city> Boulder </city>
+							<state> CO </state>
+							<postal> 80305-3328 </postal>
+							<country> USA </country>
+						</cntaddr>
+						<cntvoice> (303) 497-6826 </cntvoice>
+						<cntfax> (303) 497-6513 </cntfax>
+						<cntemail> ngdc.info@noaa.gov </cntemail>
+						<hours> 7:30 - 5:00 Mountain </hours>
+					</cntinfo>
+				</origin_cntinfo>
+				<pubdate> 20120128 </pubdate>
+				<title> Southern Louisiana 1/3 arc-second NAVD 88 DEM </title>
+				<edition> First </edition>
+				<geoform> raster digital data </geoform>
+				<serinfo>
+					<sername> NOAA Tsunami Inundation DEMs </sername>
+					<issue> Southern Louisiana - NAVD88 </issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace> Boulder, Colorado </pubplace>
+					<publish> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </publish>
+					<publish_cntinfo>
+						<cntinfo>
+							<cntorgp>
+								<cntorg> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </cntorg>
+								<cntper> User Services </cntper>
+							</cntorgp>
+							<cntaddr>
+								<addrtype> Mailing and Physical Address </addrtype>
+								<address> NOAA/NESDIS/NGDC E/GC 325 Broadway </address>
+								<city> Boulder </city>
+								<state> CO </state>
+								<postal> 80305-3328 </postal>
+								<country> USA </country>
+							</cntaddr>
+							<cntvoice> (303) 497-6826 </cntvoice>
+							<cntfax> (303) 497-6513 </cntfax>
+							<cntemail> ngdc.info@noaa.gov </cntemail>
+							<hours> 7:30 - 5:00 Mountain </hours>
+						</cntinfo>
+					</publish_cntinfo>
+				</pubinfo>
+				<onlink> http://www.ngdc.noaa.gov/dem/squareCellGrid/download/1521 </onlink>
+				<CI_OnlineResource>
+					<linkage> http://www.ngdc.noaa.gov/dem/squareCellGrid/download/1521 </linkage>
+					<name> Southern Louisiana 1/3 arc-second Tsunami Inundation DEM </name>
+					<description> Download page for accessing DEM, metadata record and development report. </description>
+					<function> download </function>
+				</CI_OnlineResource>
+				<CI_OnlineResource>
+					<linkage> http://www.ngdc.noaa.gov/mgg/inundation/hurricane/hfip.html </linkage>
+					<name> NOAA HFIP DEM Project </name>
+					<description> Project web page. </description>
+					<function> information </function>
+				</CI_OnlineResource>
+				<lworkcit>
+					<citeinfo>
+						<origin> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </origin>
+						<origin> DOC/NOAA/OAR/PMEL/NCTR &gt; NOAA Center for Tsunami Research, Pacific Marine Environmental Laboratory, OAR, NOAA, U.S. Department of Commerce </origin>
+						<pubdate> 20081031 </pubdate>
+						<title> NOAA HFIP Gridding Project </title>
+						<geoform> Raster Digital Data </geoform>
+						<serinfo>
+							<sername> NOAA Tsunami Inundation DEMs </sername>
+							<issue> Named by primary coastal city, state in DEM. </issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace> Boulder, Colorado </pubplace>
+							<publish> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </publish>
+						</pubinfo>
+						<onlink> http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html </onlink>
+						<CI_OnlineResource>
+							<linkage> http://www.ngdc.noaa.gov/mgg/inundation/tsunami/inundation.html </linkage>
+							<name> NOAA Tsunami Inundation Gridding Project </name>
+							<description> Project web page. </description>
+							<function> information </function>
+						</CI_OnlineResource>
+						<CI_OnlineResource>
+							<linkage> http://www.ngdc.noaa.gov/dem/squareCellGrid/map </linkage>
+							<name> Map Interface </name>
+							<description> Graphic geo-spatial search tool for locating completed and planned NOAA tsunami inundation DEMs. </description>
+							<function> search </function>
+						</CI_OnlineResource>
+						<CI_OnlineResource>
+							<linkage> http://www.ngdc.noaa.gov/dem/squareCellGrid/search </linkage>
+							<name> DEM text search tool </name>
+							<description> Text search tool for locating completed and planned NOAA tsunami inundation DEMs. </description>
+							<function> search </function>
+						</CI_OnlineResource>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract> Modeling and mapping of coastal processes (e.g. tsunamis, hurricane storm-surge, and sea-level rise) requires digital representations of Earth's solid surface, referred to as digital elevation models (DEMs). Some modeling utilizes structured, square-cell DEMs, while others utilize unstructured grids that have no regular cell size or pattern. Usually, these different DEM types are developed independently, even though they are built from the same source bathymetric and topographic datasets. The National Geophysical Data Center (NGDC), an office of the National Oceanic and Atmospheric Administration (NOAA), has developed two bathymetric-topographic square-celled DEMs and one bathymetric-topographic unstructured DEM of southern Louisiana. The DEMs were developed for the Hurricane Forecast Improvement Project (HFIP), with the purpose of developing a new methodology for unstructured grid production from structured square-celled grids. The 1/3 arc-second DEM referenced to North American Vertical Datum of 1988 (NAVD 88) was carefully developed and evaluated. A NAVD 88 to mean high water (MHW) 1/3 arc-second conversion grid derived from VDatum project areas was created to model the relationship between NAVD 88 and MHW in the southern Louisiana region. NGDC combined the NAVD 88 DEM and the conversion grid to develop a 1/3 arc-second MHW DEM. The NAVD 88 DEM was generated from diverse digital datasets in the region. The DEMs were developed to be used for storm surge inundation and sea level rise modeling. The source bathymetric and topographic datasets used in the development of the NAVD 88 DEM were utilized along with the NAVD 88 DEM and derivative grids to develop the NAVD 88 unstructured DEM. </abstract>
+			<purpose> Developed for the Hurricane Forecast Improvement Project (HFIP)</purpose>
+			<documnts>
+				<userguid>
+					<citeinfo>
+						<origin> Matthew R. Love </origin>
+						<origin> Jason Caldwell </origin>
+						<origin> Barry W. Eakins </origin>
+						<origin> Lisa A. Taylor </origin>
+						<origin_cntinfo>
+							<cntinfo>
+								<cntorgp>
+									<cntorg> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </cntorg>
+									<cntper> Lisa A. Taylor </cntper>
+								</cntorgp>
+								<cntaddr>
+									<addrtype> Mailing and Physical Address </addrtype>
+									<address> NOAA/NESDIS/NGDC 325 Broadway </address>
+									<city> Boulder </city>
+									<state> CO </state>
+									<postal> 80305-3328 </postal>
+									<country> USA </country>
+								</cntaddr>
+								<cntvoice> (303) 497-6767 </cntvoice>
+								<cnttdd> (303) 497-6958 </cnttdd>
+								<cntfax> (303) 497-6513 </cntfax>
+								<cntemail> Lisa.A.Taylor@noaa.gov </cntemail>
+								<hours> 7:30 - 5:00 Mountain </hours>
+								<cntinst> Contact Data Center </cntinst>
+							</cntinfo>
+						</origin_cntinfo>
+						<pubdate> 20101201 </pubdate>
+						<title> Digital Elevation Models of Southern Louisiana: Procedures, Data Sources, and Analysis </title>
+						<pubinfo>
+							<pubplace> Boulder, CO </pubplace>
+							<publish> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </publish>
+							<publish_cntinfo>
+								<cntinfo>
+									<cntorgp>
+										<cntorg> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </cntorg>
+										<cntper> User Services </cntper>
+									</cntorgp>
+									<cntaddr>
+										<addrtype> Mailing and Physical Address </addrtype>
+										<address> NOAA/NESDIS/NGDC E/GC 325 Broadway </address>
+										<city> Boulder </city>
+										<state> CO </state>
+										<postal> 80305-3328 </postal>
+										<country> USA </country>
+									</cntaddr>
+									<cntvoice> (303) 497-6826 </cntvoice>
+									<cntfax> (303) 497-6513 </cntfax>
+									<cntemail> ngdc.info@noaa.gov </cntemail>
+									<hours> 7:30 - 5:00 Mountain </hours>
+								</cntinfo>
+							</publish_cntinfo>
+						</pubinfo>
+						<othercit> 52 pages </othercit>
+						<onlink> http://www.ngdc.noaa.gov/dem/squareCellGrid/getReport/1521 </onlink>
+						<CI_OnlineResource>
+							<linkage> http://www.ngdc.noaa.gov/dem/squareCellGrid/getReport/1521 </linkage>
+							<name> Digital Elevation Models of Southern Louisiana: Procedures, Data Sources and Analysis </name>
+							<description> Report describing the development of the Southern Louisiana DEM </description>
+							<function> download </function>
+						</CI_OnlineResource>
+					</citeinfo>
+				</userguid>
+			</documnts>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate> 1888 </begdate>
+					<enddate> 2010 </enddate>
+				</rngdates>
+			</timeinfo>
+			<current> ground condition </current>
+		</timeperd>
+		<status>
+			<progress> Complete </progress>
+			<update> As needed </update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc> -91.6 </westbc>
+				<eastbc> -89.8 </eastbc>
+				<northbc> 29.7 </northbc>
+				<southbc> 28.6 </southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt> NASA/GCMD Earth Science Keywords </themekt>
+				<themekey> Earth Science &gt; Oceans &gt; Bathymetry/Seafloor Topography &gt; Seafloor Topography </themekey>
+				<themekey> Earth Science &gt; Oceans &gt; Bathymetry/Seafloor Topography &gt; Bathymetry </themekey>
+				<themekey> Earth Science &gt; Oceans &gt; Bathymetry/Seafloor Topography &gt; Water Depth </themekey>
+				<themekey> Earth Science &gt; Land Surface &gt; Topography &gt; Terrain Elevation </themekey>
+				<themekey> Earth Science &gt; Land Surface &gt; Topography &gt; Topographical Relief </themekey>
+				<themekey> Earth Science &gt; Oceans &gt; Coastal Processes &gt; Coastal Elevation </themekey>
+			</theme>
+			<theme>
+				<themekt> NASA/GCMD Platform Keywords </themekt>
+				<themekey> DEM &gt; Digital Elevation Model </themekey>
+			</theme>
+			<theme>
+				<themekt> NASA/GCMD Data Center Keywords </themekt>
+				<themekey> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </themekey>
+				<themekey> WDC/MGG, BOULDER &gt; World Data Center for Marine Geology and Geophysics, Boulder </themekey>
+			</theme>
+			<theme>
+				<themekt> NASA/GCMD Data Resolution Keywords </themekt>
+				<themekey> H: 1 meter - &lt; 30 meters </themekey>
+				<themekey> V: &lt; 1 meter </themekey>
+			</theme>
+			<theme>
+				<themekt> ISO 19115 Topic Category </themekt>
+				<themekey> elevation </themekey>
+			</theme>
+			<theme>
+				<themekt> Uncontrolled </themekt>
+				<themekey> Coastal Relief </themekey>
+				<themekey> Gridded elevations </themekey>
+				<themekey> Integrated bathymetry and topography </themekey>
+			</theme>
+			<place>
+				<placekt> NASA/GCMD Location Keywords </placekt>
+				<placekey> Continent &gt; North America &gt; United States of America &gt; Louisiana </placekey>
+				<placekey> Ocean &gt; Atlantic Ocean &gt; Gulf of Mexico </placekey>
+				<placekey> Vertical Location &gt; Land Surface </placekey>
+				<placekey> Vertical Location &gt; Sea Floor </placekey>
+			</place>
+			<place>
+				<placekt> Uncontrolled </placekt>
+				<placekey> South Louisiana </placekey>
+			</place>
+		</keywords>
+		<plainsid>
+			<missname> NOAA HFIP DEM Project </missname>
+			<platflnm> Digital Elevation Model </platflnm>
+			<platfsnm> DEM </platfsnm>
+			<instflnm> Light Detection and Ranging </instflnm>
+			<instshnm> LIDAR </instshnm>
+		</plainsid>
+		<plainsid>
+			<missname> NOAA HFIP DEM Project </missname>
+			<platflnm> Digital Elevation Model </platflnm>
+			<platfsnm> DEM </platfsnm>
+			<instflnm> Sound Navigation and Ranging </instflnm>
+			<instshnm> SONAR </instshnm>
+		</plainsid>
+		<accconst> None. </accconst>
+		<useconst> Not to be used for navigational purposes. </useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </cntorg>
+					<cntper> Barry W. Eakins </cntper>
+				</cntorgp>
+				<cntpos> Research Scientist </cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address> NOAA/NESDIS/NGDC </address>
+					<address> 325 Broadway, E/GC3 </address>
+					<city> Boulder </city>
+					<state> Colorado </state>
+					<postal> 80305-3328 </postal>
+					<country> USA </country>
+				</cntaddr>
+				<cntvoice> 303-497-6505 </cntvoice>
+				<cntfax> 303-497-6513 </cntfax>
+				<cntemail> Barry.Eakins@noaa.gov </cntemail>
+				<hours> 9am-5pm, M-F, Mountain Time </hours>
+				<cntinst> Contact NGDC&apos;s Marine Geology and Geophysics Division. http://www.ngdc.noaa.gov/mgg/aboutmgg/contacts.html </cntinst>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen> http://www.ngdc.noaa.gov/dem/squareCellGrid/getGraphic/1521 </browsen>
+			<browsed> Perspective view of DEM </browsed>
+			<browset> JPEG </browset>
+		</browse>
+		<agginfo>
+			<conpckid>
+				<datsetid> gov.noaa.ngdc.mgg.dem:hfip </datsetid>
+			</conpckid>
+		</agginfo>
+	</idinfo>
+	<dataqual>
+		<logic> Datasets were visually compared internally and externally (with other overlapping datasets and satellite images and maps) in ESRI ArcGIS for identification of anomalous elevations or data inconsistencies. Where elevation inconsistencies occurred, the most recent and/or highest resolution data set was selected for use in that region. Elevations in the older and/or lower-resolution datasets were deleted prior to building the DEM. </logic>
+		<complete> NGDC made every effort to obtain all available digital topographic and bathymetric datasets in the region for use in building the DEM. </complete>
+		<posacc>
+			<horizpa>
+				<horizpar> The horizontal accuracy of bathymetric and topographic features in the DEM is dependent upon the accuracy of the input datasets used to determine corresponding cell values. Topography: 10 meters due to cell size. Lidar: less than 5 meters. DEM cell-value relative-contribution factors: Louisiana Lidar, CSC Lidar: 100, Digitzed features: 1, Bathymetry: 5 to several tens of meters. Positional accuracy of input bathymetric datasets limits accuracy of corresponding cell values in DEM. CSC Lidar: 0.75 meters. Early 20th-century NOS hydrographic soundings are limited by sparseness of deep-water soundings, and potentially large position accuracy of pre-satellite (i.e., GPS) navigation: tens to several tens of meters. Morphologic change in inland rivers and along the coast also degrades the positional accuracy of DEM features. DEM cell-value relative-contribution factors: CSC Coastal Lidar: 100, USACE hydrographic survey data: 5, NOS hydrographic soundings: 5, Digitized features: 1. </horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr> The vertical accuracy of bathymetric and topographic features in the DEM is dependent upon the accuracy of the input datasets used to determine corresponding cell values. Topography: 1 to 16 meters. Vertical accuracy of input topographic datasets limits accuracy of corresponding cells in DEM. Lidar: less than 1 meter. DEM cell relative-contribution factors: Louisiana Lidar, CSC Lidar: 100, Digitized features: 10. Bathymetry: 0.1 meters to 5% of water depth. Vertical accuracy of input bathymetric datasets limits accuracy of corresponding cells in DEM. Early 20th-century NOS hydrographic soundings are limited by sparseness of deep-water soundings, and potentially large position accuracy of pre-satellite (i.e., GPS) navigation: several meters. DEM cell relative-contribution factors: CSC Coastal Lidar: 100, USACE hydrographic survey data: 5, NOS hydrographic soundings: 5, Digitized features: 1. Gridding interpolation to determine cell values between sparse NOS hydrographic soundings in deep water degrades the vertical accuracy of deep-water elevations. </vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin> DOC/NOAA/NOS/OCS/CSDL &gt; Coastal Survey Development Laboratory, OCS, NOS, NOAA, U.S. Department of Commerce </origin>
+						<pubdate> 2009 </pubdate>
+						<title> NOS Hydrographic Surveys </title>
+						<onlink> http://www.nauticalcharts.noaa.gov/csdl/welcome.htm </onlink>
+						<CI_OnlineResource>
+							<linkage> http://www.nauticalcharts.noaa.gov/csdl/welcome.htm </linkage>
+							<name> CSDL non-superceded NOS Hydrographic Survey Database </name>
+							<description> Digital database of non-superceded NOS hydrographic surveys that date back to the late 19th century. </description>
+						</CI_OnlineResource>
+					</citeinfo>
+				</srccite>
+				<typesrc> digital files via FTP </typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate> 1897 </begdate>
+							<enddate> 2001 </enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr> ground condition </srccurr>
+				</srctime>
+				<srccitea> NOS Hydrographic Surveys </srccitea>
+				<srccontr> Hydrographic surveys provided to NGDC by CSDL </srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin> U.S. Army Corps of Engineers, New Orleans District </origin>
+						<pubdate> 2009 </pubdate>
+						<title> USACE Hydrographic Surveys </title>
+						<onlink> http://www.mvn.usace.army.mil/ </onlink>
+						<CI_OnlineResource>
+							<linkage> http://www.mvn.usace.army.mil/ </linkage>
+							<name> USACE New Orleans District Hydrographic Surveys </name>
+							<description> Digital database of hydrographic surveys in New Orleans District </description>
+							<function> download </function>
+						</CI_OnlineResource>
+					</citeinfo>
+				</srccite>
+				<typesrc> online </typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate> 2009 </caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr> ground condition </srccurr>
+				</srctime>
+				<srccitea> USACE Hydrographic Surveys </srccitea>
+				<srccontr> Hydrographic surveys for New Orleans District </srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin> DOC/NOAA/NOS/CSC &gt; Coastal Services Center, National Ocean Service, NOAA, U.S. Department of Commerce </origin>
+						<pubdate> 2005 </pubdate>
+						<title> NOAA Coastal Services Center Coastal Bathymetric-Topographic Lidar </title>
+						<onlink> http://maps.csc.noaa.gov/TCM/ </onlink>
+						<CI_OnlineResource>
+							<linkage> http://maps.csc.noaa.gov/TCM/ </linkage>
+							<name> 2005 USACE Post-Hurricane Katrina Topographic/Bathymetric Mapping </name>
+							<description> CSC coastal bathymetric-topographic Lidar </description>
+							<function> download and digital files </function>
+						</CI_OnlineResource>
+					</citeinfo>
+				</srccite>
+				<typesrc> online </typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate> 2005 </caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr> ground condition </srccurr>
+				</srctime>
+				<srccitea> NOAA Coastal Services Center Lidar </srccitea>
+				<srccontr> coastal lidar </srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin> DOC/NOAA/NOS/CSC &gt; Coastal Services Center, National Ocean Service, NOAA, U.S. Department of Commerce </origin>
+						<pubdate> 2005 </pubdate>
+						<title> NOAA Coastal Services Center Levee Topographic Lidar </title>
+						<onlink> http://maps.csc.noaa.gov/TCM/ </onlink>
+						<CI_OnlineResource>
+							<linkage> http://maps.csc.noaa.gov/TCM/ </linkage>
+							<name> 2005 USACE Post-Hurricane Katrina Louisiana Levee Mapping </name>
+							<description> CSC topographic lidar </description>
+							<function> download </function>
+						</CI_OnlineResource>
+					</citeinfo>
+				</srccite>
+				<typesrc> online </typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate> 2005 </caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr> ground condition </srccurr>
+				</srctime>
+				<srccitea> NOAA Coastal Services Center Lidar </srccitea>
+				<srccontr> Louisiana levee lidar </srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin> DOC/NOAA/NOS/NGS &gt; National Geodetic Survey, National Ocean Service, NOAA, U.S Department of Commerce </origin>
+						<pubdate> 2001 </pubdate>
+						<title> Composite Shoreline and associated data of Louisiana State Composite, LA_COMP </title>
+						<onlink> http://www.ngs.noaa.gov/RSD/shoredata/NGS_Shoreline_Products.htm </onlink>
+						<CI_OnlineResource>
+							<linkage> http://www.ngs.noaa.gov/RSD/shoredata/NGS_Shoreline_Products.htm </linkage>
+							<name> Composite Shoreline and associated data of Louisiana State Composite, LA_COMP </name>
+							<description> The shoreline and associated data are a representation based on an office interpretation of imagery at the time of photographs taken 19780101 to 19860301. </description>
+							<function> download </function>
+						</CI_OnlineResource>
+					</citeinfo>
+				</srccite>
+				<typesrc> online </typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate> 1978 </begdate>
+							<enddate> 1986 </enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr> ground condition </srccurr>
+				</srctime>
+				<srccitea> Composite Shoreline and associated data of Louisiana State Composite, LA_COMP </srccitea>
+				<srccontr> composite shoreline downloaded from web site. </srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin> "Atlas: The Louisiana Statewide GIS." LSU CADGIS Research Laboratory </origin>
+						<pubdate> 1999 </pubdate>
+						<title> Louisiana State topographic lidar </title>
+						<onlink> http://atlas.lsu.edu/lidar/ </onlink>
+						<CI_OnlineResource>
+							<linkage> http://atlas.lsu.edu/lidar/ </linkage>
+							<name> Atlas: The Louisiana Statewide GIS. </name>
+							<description> Lidar data distribution of 1999 Louisiana Lidar. </description>
+							<function> download </function>
+						</CI_OnlineResource>
+					</citeinfo>
+				</srccite>
+				<typesrc> online </typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate> 1999 </caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr> publication date </srccurr>
+				</srctime>
+				<srccitea> Lidar topography for Louisiana State </srccitea>
+				<srccontr> topographic lidar </srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc> All datasets obtained by NGDC were converted to common horizontal and vertical datums of NAD 83 geographic and NAVD 88, respectively, using Proj4 and VDatum transformation tool. They were also converted to common file format, ESRI point shapefiles, for visualization and inspection. </procdesc>
+				<procdate> 20100828 </procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </cntorg>
+							<cntper> Matthew R. Love </cntper>
+						</cntorgp>
+						<cntpos> Digital Elevation Model Developer </cntpos>
+						<cntaddr>
+							<addrtype> mailing and physical address </addrtype>
+							<address> 325 Broadway, E/GC3 </address>
+							<city> Boulder </city>
+							<state> Colorado </state>
+							<postal> 80305-3328 </postal>
+							<country> USA </country>
+						</cntaddr>
+						<cntvoice> 303-497-4742 </cntvoice>
+						<cntfax> 303-497-6513 </cntfax>
+						<cntemail> Matthew.Love@noaa.gov </cntemail>
+						<hours> 9am-5pm, M-F, Mountain Time </hours>
+						<cntinst> Contact NGDC&apos;s Marine Geology and Geophysics Division. http://www.ngdc.noaa.gov/mgg/aboutmgg/contacts.html </cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc> Datasets were visually inspected with ArcGIS for identification and editing of data anomalies. Datasets were then compared with overlapping datasets to ensure data consistency. </procdesc>
+				<procdate> 20100901 </procdate>
+			</procstep>
+			<procstep>
+				<procdesc> Coastline datasets were merged and adjusted to fit satellite imagery. </procdesc>
+				<procdate> 20100924 </procdate>
+			</procstep>
+			<procstep>
+				<procdesc> xyz files of the bathymetric data were surfaced using GMT&apos;s &apos;surface&apos; tool onto a 1 arc-second grid that interpolated to fill empty cells. Points extracted every 10 meters along the coastline were also included to ensure that the bathymetric grid reached zero at the coast. The resulting netCDF grid was clipped to the coastline to remove values over land. </procdesc>
+				<procdate> 20100930 </procdate>
+			</procstep>
+			<procstep>
+				<procdesc> xyz files for each input dataset were gridded using MB-System&apos;s &apos;mbgrid&apos; tool, which utilizes a high-tension spline interpolation method to fill grid cells with no input elevation values. Preferential weighting was given to more recent, higher-accuracy datasets. Gridding was performed with a 5% data buffer. </procdesc>
+				<procdate> 20101020 </procdate>
+			</procstep>
+			<procstep>
+				<procdesc> The NAVD 88 DEM was quantitatively evaluated by comparing with source datasets and with elevation values extracted from NGS geodetic monuments. It was visually evaluated by converting to UTM-zone coordinates (units of meters horizontally and vertically) and then creating a slope grid to identify gridding artifacts in the DEM. </procdesc>
+				<procdate> 20101024 </procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct> Raster </direct>
+		<rastinfo>
+			<cvaltype> netcdf </cvaltype>
+			<rasttype> Grid Cell </rasttype>
+			<rowcount> 30241 </rowcount>
+			<colcount> 11881 </colcount>
+			<vrtcount> 1 </vrtcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres> 0.00009259 </latres>
+				<longres> 0.00009259 </longres>
+				<geogunit> Decimal degrees </geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn> D_WGS_1984 </horizdn>
+				<ellips> WGS_1984 </ellips>
+				<semiaxis> 6378137.000000 </semiaxis>
+				<denflat> 298.257224 </denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum> North American Vertical Datum of 1988 </altdatum>
+				<altres> 0.01 </altres>
+				<altunits> meters </altunits>
+				<altenc> Explicit elevation coordinate included with horizontal coordinates </altenc>
+			</altsys>
+			<depthsys>
+				<depthdn> North American Vertical Datum of 1988 </depthdn>
+				<depthres> 0.01 </depthres>
+				<depthdu> meters </depthdu>
+				<depthem> Explicit depth coordinate included with horizontal coordinates </depthem>
+			</depthsys>
+		</vertdef>
+	</spref>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </cntorg>
+					<cntper> Barry W. Eakins </cntper>
+				</cntorgp>
+				<cntpos> Research Scientist </cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address> NOAA/NESDIS/NGDC </address>
+					<address> 325 Broadway, E/GC3 </address>
+					<city> Boulder </city>
+					<state> Colorado </state>
+					<postal> 80305-3328 </postal>
+					<country> USA </country>
+				</cntaddr>
+				<cntvoice> 303-497-6505 </cntvoice>
+				<cntfax> 303-497-6513 </cntfax>
+				<cntemail> Barry.Eakins@noaa.gov </cntemail>
+				<hours> 9am-5pm, M-F, Mountain Time </hours>
+				<cntinst> Contact NGDC&apos;s Marine Geology and Geophysics Division. http://www.ngdc.noaa.gov/mgg/aboutmgg/contacts.html </cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc> Downloadable Data </resdesc>
+		<distliab> While every effort has been made to ensure that these data are accurate and reliable within the limits of the current state of the art, NOAA cannot assume liability for any damages caused by any errors or omissions in the data, nor as a result of the failure of the data to function on a particular system. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty. </distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname> netCDF </formname>
+					<formvern> 3.6.2 </formvern>
+					<filedec> ZIP </filedec>
+					<transize> 939715678 </transize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr> http://www.ngdc.noaa.gov/dem/squareCellGrid/getArchive/1521 </networkr>
+								<CI_OnlineResource>
+									<linkage> http://www.ngdc.noaa.gov/dem/squareCellGrid/getArchive/1521 </linkage>
+									<name> Southern Louisiana 1/3 arc-second NAVD 88 netCDF DEM </name>
+									<description> DEM, metadata and Readme file for the Southern Louisiana DEM. </description>
+									<function> download </function>
+								</CI_OnlineResource>
+								<CI_OnlineResource>
+									<linkage> http://www.ngdc.noaa.gov/dem/squareCellGrid/download/1521 </linkage>
+									<name> Southern Louisiana 1/3 arc-second NAVD 88 DEM </name>
+									<description> Download page for accessing DEM, metadata record and development report. </description>
+									<function> information </function>
+								</CI_OnlineResource>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees> None </fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd> 20101205 </metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg> DOC/NOAA/NESDIS/NGDC &gt; National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce </cntorg>
+					<cntper> Barry W. Eakins </cntper>
+				</cntorgp>
+				<cntpos> Research Scientist </cntpos>
+				<cntaddr>
+					<addrtype> mailing and physical address </addrtype>
+					<address> NOAA/NESDIS/NGDC </address>
+					<address> 325 Broadway, E/GC3 </address>
+					<city> Boulder </city>
+					<state> Colorado </state>
+					<postal> 80305-3328 </postal>
+					<country> USA </country>
+				</cntaddr>
+				<cntvoice> 303-497-6505 </cntvoice>
+				<cntfax> 303-497-6513 </cntfax>
+				<cntemail> Barry.Eakins@noaa.gov </cntemail>
+				<hours> 9am-5pm, M-F, Mountain Time </hours>
+				<cntinst> Contact NGDC&apos;s Marine Geology and Geophysics Division. http://www.ngdc.noaa.gov/mgg/aboutmgg/contacts.html </cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn> Content Standard for Digital Geospatial Metadata: Extensions for Remote Sensing Metadata </metstdn>
+		<metstdv> FGDC-STD-012-2002 </metstdv>
+		<mettc> local time </mettc>
+	</metainfo>
+</metadata>
